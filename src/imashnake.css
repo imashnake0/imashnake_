@@ -13,3 +13,9 @@ body {
     color-scheme: dark;
     background-color: #0A1625;
 }
+
+.content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}

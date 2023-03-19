@@ -9,8 +9,8 @@ body {
 
     /* Font */
     font-family: "Manrope", Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 95%;
+    font-weight: 600;
+    font-size: 110%;
     color: #C2CBD5;
 
     /* Page */
@@ -24,4 +24,17 @@ body {
     padding-bottom: 5%;
     padding-top: 2%;
     background-color: #152232a5;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #0A1625;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 3px #C2CBD5; /* This draws the table border  */ 
+}
+
+th, td {
+    padding: 8px;
+    border: 2px solid #c2cbd569;
 }

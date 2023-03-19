@@ -3,6 +3,10 @@
 
 /* https://github.com/imashnake0/Animite/blob/main/app/src/main/java/com/imashnake/animite/features/theme/Color.kt */
 body {
+    /* Reset default padding */
+    padding: 0;
+    margin: 0;
+
     /* Font */
     font-family: "Manrope", Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -18,4 +22,6 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
+    padding-top: 2%;
+    background-color: #152232a5;
 }

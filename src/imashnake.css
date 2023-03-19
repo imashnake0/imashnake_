@@ -9,7 +9,7 @@ body {
 
     /* Font */
     font-family: "Manrope", Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 110%;
     color: #C2CBD5;
 
@@ -18,23 +18,74 @@ body {
     background-color: #0A1625;
 }
 
+.heading {
+    text-align: center;
+    font-size: x-large;
+}
+
 .content {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
     padding-top: 2%;
-    background-color: #152232a5;
+    background-color: #c2cbd507;
 }
 
+.description {
+    font-weight: 900;
+}
+
+.chips {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+}
+
+.chips:hover {
+    background-color: #c2cbd50c;
+}
+
+.title {
+    border-radius: 10px;
+}
+
+.title:hover {
+    background-color: #c2cbd50c;
+}
+
+/* Tables */
 table {
     border-collapse: collapse;
     background-color: #0A1625;
     border-radius: 10px;
     border-style: hidden;
+    width: 30%;
     box-shadow: 0 0 0 3px #C2CBD5; /* This draws the table border  */ 
 }
 
 th, td {
     padding: 8px;
     border: 2px solid #c2cbd569;
+    text-align: center;
+}
+
+/* Links */
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c2cbd5ae;
+}
+
+/* Lists */
+ul li {
+    list-style: inside;
+}
+
+/* Headings */
+h1, h2 {
+    color: #FFFFFF;
 }

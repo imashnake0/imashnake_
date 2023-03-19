@@ -1,6 +1,15 @@
+/* https://www.gent.media/manrope */
 @import url("https://fonts.googleapis.com/css?family=Manrope");
 
+/* https://github.com/imashnake0/Animite/blob/main/app/src/main/java/com/imashnake/animite/features/theme/Color.kt */
 body {
+    /* Font */
     font-family: "Manrope";
     font-weight: normal;
+    font-size: 95%;
+    color: #C2CBD5;
+
+    /* Page */
+    color-scheme: dark;
+    background-color: #0A1625;
 }

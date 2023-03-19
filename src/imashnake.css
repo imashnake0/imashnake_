@@ -4,7 +4,7 @@
 /* https://github.com/imashnake0/Animite/blob/main/app/src/main/java/com/imashnake/animite/features/theme/Color.kt */
 body {
     /* Font */
-    font-family: "Manrope";
+    font-family: "Manrope", Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 95%;
     color: #C2CBD5;

@@ -5,7 +5,6 @@ const site = lume({
 });
 
 site.copy("index.html")
-site.copy("Animite.html")
 site.copy("imashnake.css")
 
 export default site;

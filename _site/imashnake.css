@@ -1,11 +1,16 @@
 /* https://www.gent.media/manrope */
 @import url("https://fonts.googleapis.com/css?family=Manrope");
 
-/* https://github.com/imashnake0/Animite/blob/main/app/src/main/java/com/imashnake/animite/features/theme/Color.kt */
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
 body {
-    /* Reset default padding */
-    padding: 0;
-    margin: 0;
+   margin: 0;
+   height: 100%;
+   width: 100%;
 
     /* Font */
     font-family: "Manrope", Arial, Helvetica, sans-serif;
@@ -18,68 +23,35 @@ body {
     background-color: #060e17;
 }
 
-.heading {
-    text-align: center;
-    font-size: x-large;
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
-.content {
-    padding: 2% 5% 5% 5%;
-    background-color: #c2cbd50a;
+.navhost {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    background-image: url("/images/harbor_front.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
-.description {
-    font-weight: 900;
+.navbar {
+    margin: 0px;
+    width: 100%;
+
+    background-color: #060e17e4;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }
 
-.chips {
-    padding: 15px 7px 1px 7px;
-    border-radius: 10px;
-}
-
-.chips:hover {
-    background-color: #c2cbd50c;
-}
-
-.title {
-    border-radius: 10px;
-}
-
-.title:hover {
-    background-color: #c2cbd50c;
-}
-
-/* Tables */
-table {
-    border-collapse: collapse;
-    background-color: #0A1625;
-    border-radius: 10px;
-    border-style: hidden;
-    width: 30%;
-    box-shadow: 0 0 0 3px #C2CBD5; /* This draws the table border  */ 
-}
-
-th, td {
-    padding: 8px;
-    border: 2px solid #c2cbd569;
-    text-align: center;
-}
-
-/* Links */
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: #c2cbd5ae;
-}
-
-/* Lists */
-ul li {
-    list-style: inside;
-}
-
-/* Headings */
-h1, h2 {
-    color: #FFFFFF;
+.navbar-name {
+    padding: 30px;
 }

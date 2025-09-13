@@ -6,6 +6,7 @@ const site = lume({
 
 site.copy("/index.html")
 site.copy("/imashnake.css")
+site.copy("/static/favicon.ico")
 site.copy("/static/harbor_front.jpg")
 site.copy("/static/love_rock.jpg")
 site.copy("/static/ocean_morning.jpg")

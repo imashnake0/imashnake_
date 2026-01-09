@@ -5,6 +5,7 @@ const site = lume({
 });
 
 site.copy("/index.html")
+site.copy("/animite.html")
 site.copy("/imashnake.css")
 site.copy("/_data.yml")
 site.copy("/favicon.ico")

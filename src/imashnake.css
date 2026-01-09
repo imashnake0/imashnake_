@@ -8,9 +8,9 @@ html {
 }
 
 body {
-   margin: 0;
-   height: 100%;
-   width: 100%;
+    margin: 0;
+    height: 100%;
+    width: 100%;
 
     /* Font */
     font-family: "Manrope", Arial, Helvetica, sans-serif;
@@ -21,18 +21,6 @@ body {
     /* Page */
     color-scheme: dark;
     background-color: #060e17;
-}
-
-h1 {
-    margin: 0;
-    padding: 0;
-}
-
-.navhost {
-    position: absolute;
-
-    height: 100%;
-    width: 100%;
 
     background-image: url("static/harbor_front.jpg");
     background-size: cover;
@@ -40,18 +28,78 @@ h1 {
     background-position: top right;
 }
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
+    max-height: 100px;
+    display: inline-flex;
+    align-items: baseline;
     margin: 0px;
     width: 100%;
-
+    padding: 15px;
     background-color: #060e17e4;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     z-index: 10;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
 }
 
-.navbar-name {
-    padding: 30px;
+.navbar-item {
+    width: min-content;
+    padding: 15px;
+}
+
+.navhost {
+    background-color: #060e178e;
+    padding: 45px;
+}
+
+h2 {
+    opacity: 0.7;
+}
+
+a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a:link {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:visited {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 9999px;
+    font-size: larger;
+    transition: 0.3s;
+}
+
+a:active {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.3s;
 }
